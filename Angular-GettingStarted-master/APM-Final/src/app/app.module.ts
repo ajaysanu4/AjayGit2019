@@ -10,7 +10,7 @@ import { ProductModule } from "./products/product.module";
 @NgModule({
   declarations: [AppComponent, WelcomeComponent],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     HttpClientModule,
     RouterModule.forRoot([
       { path: "welcome", component: WelcomeComponent },
