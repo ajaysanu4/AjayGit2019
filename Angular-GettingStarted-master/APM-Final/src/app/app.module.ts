@@ -7,6 +7,7 @@ import { AppComponent } from "./app.component";
 import { WelcomeComponent } from "./home/welcome.component";
 import { ProductModule } from "./products/product.module";
 
+//npm not installed locally so error is comming
 @NgModule({
   declarations: [AppComponent, WelcomeComponent],
   imports: [
